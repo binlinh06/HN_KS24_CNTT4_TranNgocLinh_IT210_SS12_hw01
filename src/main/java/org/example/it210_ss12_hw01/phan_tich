@@ -1,0 +1,9 @@
+Tại sao spring-boot-starter-web được gọi là một "Starter"? Nó giúp chúng ta không phải khai báo những thư viện nhỏ lẻ nào?
+spring-boot-starter-web là Starter vì nó gom sẵn nhiều thư viện cần thiết cho web (Spring MVC, Jackson, Tomcat…).
+Bạn không cần khai báo thủ công từng dependency nhỏ lẻ.
+Nhờ Auto-configuration, Spring Boot tự cấu hình ứng dụng mà không cần XML phức tạp.
+Nhờ Embedded Tomcat, ứng dụng chạy trực tiếp bằng main()
+ không cần cài server ngoài.
+
+Kết luận:
+Spring Boot giúp tạo và chạy web app nhanh, đơn giản, ít cấu hình hơn nhiều so với cách truyền thống.

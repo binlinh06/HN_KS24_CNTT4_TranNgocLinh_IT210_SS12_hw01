@@ -8,6 +8,7 @@ public class It210Ss12Hw01Application {
 
     public static void main(String[] args) {
         SpringApplication.run(It210Ss12Hw01Application.class, args);
+        System.out.println("Hospital Web Service is ready on Embedded Tomcat!");
     }
 
 }
